@@ -1,5 +1,8 @@
 import os
+import sys
 from bottle import route, run, template
+
+print("Running using: %s" % sys.executable)
 
 html_template = r'''
 <title>Python Env</title>
