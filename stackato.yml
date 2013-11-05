@@ -1,1 +1,5 @@
 name: python-env
+
+env:
+  PYTHON_VERSION: 3.3
+
