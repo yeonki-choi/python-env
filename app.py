@@ -5,7 +5,7 @@ from bottle import route, run, template
 print("Running using: %s" % sys.executable)
 
 html_template = r'''
-<title>Python Env</title>
+<title>Python Environment</title>
 <body>
 <h1>Python Env</h1>
 <ul>
